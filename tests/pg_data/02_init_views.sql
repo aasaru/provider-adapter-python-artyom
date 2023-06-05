@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW representee_mandates_view AS
+CREATE OR REPLACE VIEW roles_view AS
 SELECT
     mandate.id AS mandate_id,
     mandate.delegate_id,
